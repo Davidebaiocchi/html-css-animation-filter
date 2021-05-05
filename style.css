@@ -95,7 +95,7 @@
 }
 
 /* ESERCIZO 12 */
-.ex-12-button:hover .ex-12-top-white{
+.ex-13-button:hover .ex-13-top-white{
     animation: destra 1s linear;
 }
 @keyframes destra {
@@ -103,7 +103,7 @@
         left: 100%;
     }
 }
-.ex-12-button:hover .ex-12-bottom-white {
+.ex-13-button:hover .ex-13-bottom-white {
     animation: sinistra 1s linear;
 }
 @keyframes sinistra {
@@ -113,7 +113,25 @@
 }
 /* ESERCIZO 13 */
 
-
+.ex-13-button:hover .ex-13-top-white{
+    animation: destra 1s linear;
+}
+@keyframes destra {
+    0% {
+        left: 100%;
+    }
+    50% {
+        top: 100%;
+    }
+}
+.ex-13-button:hover .ex-12-bottom-white {
+    animation: sinistra 1s linear;
+}
+@keyframes sinistra {
+    0% {
+        right: 100%;
+    }
+}
 
 
 

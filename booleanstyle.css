@@ -45,7 +45,13 @@
 }
 
 /* ESERCIZO 7 */
-
+.ex-7-img {
+    transition: all 1s;
+}
+.ex-7-img:hover {
+    filter: grayscale(8);
+    filter: sepia(.6);
+}
 /* ESERCIZO 8 */
 
 /* ESERCIZO 9 */

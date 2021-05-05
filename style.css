@@ -73,17 +73,17 @@
 }
 /* ESERCIZO 10 */
 .ex-10-icon {
-    animation: rotazione 0.5s linear infinite;
+    animation: rotazione 0.2s linear infinite;
 }
 @keyframes rotazione {
     0% {
-        transform: rotate(1turn);
+        transform: rotate(360deg);
     }
 }
 
 /* ESERCIZO 11 */
 .ex-11-icon:hover {
-    animation: rotazione2 3s linear;
+    animation: rotazione2 1s linear;
 }
 @keyframes rotazione2 {
     0% {
@@ -100,11 +100,6 @@
 }
 .ex-12-bottom-white {
     transition: sinistra 1s linear;
-}
-@keyframes destra {
-    0 {
-        right: 100%;
-    }
 }
 @keyframes sinistra {
     0% {

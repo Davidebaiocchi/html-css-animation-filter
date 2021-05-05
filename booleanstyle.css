@@ -72,6 +72,14 @@
     transform: scale(1.5);
 }
 /* ESERCIZO 10 */
+.ex-10-icon {
+    animation: rotazione 0.5s linear infinite;
+}
+@keyframes rotazione {
+    0% {
+        transform: rotate(1turn);
+    }
+}
 
 /* ESERCIZO 11 */
 

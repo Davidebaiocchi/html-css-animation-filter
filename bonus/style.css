@@ -1,0 +1,27 @@
+.bgbasket {
+    background-image: url(img/sfondomod.jpg);
+    width: 100%;
+    height:1000px;
+    margin: 0 auto;
+    background-size: cover;
+}
+img {
+    height: 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    animation: slam 5s infinite;
+}
+@keyframes slam {
+    0% {
+        right: 0;
+        top: 0;
+    }
+    50% {
+        rot
+    }
+    100% {
+       top: 30px; 
+       right: 800px;
+    }
+}
